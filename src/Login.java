@@ -41,7 +41,7 @@ public class Login {
 		capabilities.setCapability("autoAcceptAlerts", true);
 		capabilities.setCapability("name", "Login test");
 
-		wd = new IOSDriver(new URL("http://misieksr:3d40011a-fd26-40c0-9a0b-0f0c108f0a42@ondemand.saucelabs.com:80/wd/hub"), capabilities);
+		wd = new IOSDriver(new URL("http://marcinw:5e05cdfe-7ddf-4f20-b7d6-3f018929ba19@ondemand.saucelabs.com:80/wd/hub"), capabilities);
 		wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 	}
