@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Alltests">
+  <test name="Test">
+    <classes>
+      <class name=".Connect_partner_fail"/>
+      <class name=".Signup"/>
+      <class name=".Change_password"/>
+      <class name=".Show_results"/>
+      <class name=".Set_health_insurance"/>
+      <class name=".Login_fail"/>
+      <class name=".Login"/>
+      <class name=".Signup_fail"/>
+      <class name=".Set_def_lab"/>
+      <class name=".Get_tested"/>
+      <class name=".Swipe"/>
+      <class name=".Change_password_fail"/>
+      <class name=".Login_logout"/>
+      <class name=".Set_def_pharmacy"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Alltests -->
