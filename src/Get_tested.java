@@ -22,27 +22,26 @@ public class Get_tested {
 		DesiredCapabilities capabilities = new DesiredCapabilities();	
 
 		//local simulator capabilities
-		capabilities.setCapability("platformName","iOS");
-		capabilities.setCapability("platformVersion","9.3");
-		capabilities.setCapability("deviceName","iPhone 5s");
-		capabilities.setCapability("autoAcceptAlerts", true);
-		capabilities.setCapability("app", "/Users/misiek/Library/Developer/Xcode/DerivedData/snowflake-hchuoihtrlyazzffhpmkgxniqxoa/Build/Products/Debug-iphonesimulator/biemSimulator.app");
-		capabilities.setCapability("newCommandTimeout", 7200);
-		wd = new IOSDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
-		wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		
-//		capabilities.setCapability("appiumVersion", "1.5.3");
+//		capabilities.setCapability("platformName","iOS");
+//		capabilities.setCapability("platformVersion","9.3");
 //		capabilities.setCapability("deviceName","iPhone 5s");
-//		capabilities.setCapability("deviceOrientation", "portrait");
-//		capabilities.setCapability("platformVersion","9.2");
-//		capabilities.setCapability("platformName", "iOS");
-//		capabilities.setCapability("browserName", "");
-//		capabilities.setCapability("app","sauce-storage:biemsim.zip");
 //		capabilities.setCapability("autoAcceptAlerts", true);
-//		capabilities.setCapability("name", "Get tested test");
-
-//		wd = new IOSDriver(new URL("http://marcinw:5e05cdfe-7ddf-4f20-b7d6-3f018929ba19@ondemand.saucelabs.com:80/wd/hub"), capabilities);
+//		capabilities.setCapability("app", "/Users/misiek/Library/Developer/Xcode/DerivedData/snowflake-hchuoihtrlyazzffhpmkgxniqxoa/Build/Products/Debug-iphonesimulator/biemSimulator.app");
+//		capabilities.setCapability("newCommandTimeout", 7200);
+//		wd = new IOSDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
 //		wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
+		capabilities.setCapability("appiumVersion", "1.5.3");
+		capabilities.setCapability("deviceName","iPhone 5s");
+		capabilities.setCapability("deviceOrientation", "portrait");
+		capabilities.setCapability("platformVersion","9.2");
+		capabilities.setCapability("platformName", "iOS");
+		capabilities.setCapability("browserName", "");
+		capabilities.setCapability("app","sauce-storage:biemsim.zip");
+		capabilities.setCapability("autoAcceptAlerts", true);
+		capabilities.setCapability("name", "Get tested test");
+		wd = new IOSDriver(new URL("http://marcinw:5e05cdfe-7ddf-4f20-b7d6-3f018929ba19@ondemand.saucelabs.com:80/wd/hub"), capabilities);
+		wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 	}
 	
