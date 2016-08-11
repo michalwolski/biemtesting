@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c6875db-8761-41fe-87b5-b4db974260c2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Change_password.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Change_password_fail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Connect_partner_fail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Edit_profile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Get_tested.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Login.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Login_fail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Login_logout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Set_def_lab.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Set_def_pharmacy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Set_health_insurance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Show_results.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Signup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Signup_fail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Swipe.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Change_password.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Change_password.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Change_password_fail.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Change_password_fail.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Connect_partner_fail.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Connect_partner_fail.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Edit_profile.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Edit_profile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Get_tested.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Get_tested.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Login.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Login.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Login_fail.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Login_fail.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Login_logout.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Login_logout.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Set_def_lab.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Set_def_lab.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Set_def_pharmacy.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Set_def_pharmacy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Set_health_insurance.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Set_health_insurance.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Show_results.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Show_results.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Signup.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Signup.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Signup_fail.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Signup_fail.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Swipe.java" afterPath="$PROJECT_DIR$/src/test/java/com/biem/Swipe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9c6875db-8761-41fe-87b5-b4db974260c2" name="Default" comment="" />
     <ignored path="biemtesting.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -52,11 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Change_password.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Change_password.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/biem/Change_password.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
-              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,6 +49,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/sauce.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/biem/Change_password.java" />
       </list>
     </option>
   </component>
@@ -110,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,6 +139,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -298,18 +277,18 @@
       <option name="presentableId" value="Default" />
       <updated>1470915221638</updated>
       <workItem from="1470915223395" duration="829000" />
-      <workItem from="1470918625712" duration="4000" />
+      <workItem from="1470918625712" duration="388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="833000" />
+    <option name="totallyTimeSpent" value="1217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25377643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -352,7 +331,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/bin/sauce.yml" />
+    <entry file="file://$PROJECT_DIR$/src/sauce.yml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/biem/Change_password.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sauce.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -360,12 +349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/sauce.yml" />
-    <entry file="file://$PROJECT_DIR$/src/sauce.yml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/biem/Change_password.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
